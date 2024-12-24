@@ -5,7 +5,7 @@ const SmartDoorLock = () => {
     <div className="h-full rounded-xl p-5 justify-between relative w-full">
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full">
-       <img src="/src/assets/doorbell.png
+       <img src="/octalume/src/assets/doorbell.png
        "  />
         </div>
       
@@ -21,7 +21,7 @@ const SmartDoorLock = () => {
       <p className="text-secondary-text">Connected Appliances</p>
       </div>
       <button className="bg-primary-container-text w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
         </div>
       {/* Status Container */}
@@ -30,7 +30,7 @@ const SmartDoorLock = () => {
           {/* Lock Icon */}
           
           <button className="bg-[#DFFF00] text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/Lock Icon.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/Lock Icon.svg" alt="Up Arrow" />
         </button>
           
           <div className="ml-4">
@@ -40,7 +40,7 @@ const SmartDoorLock = () => {
         </div>
         {/* Right Arrow Icon */}
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
       </div>

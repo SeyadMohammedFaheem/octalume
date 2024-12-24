@@ -5,7 +5,7 @@ const PeepholeCam = ({ deviceName, subtitle,}) => {
   return (
     <div className="bg-primary-container-bg flex flex-col items-center justify-center p-5 gap-5 rounded-3xl">
        <div className="relative ">
-       <img src="/src/assets/camera feed.svg
+       <img src="/octalume/src/assets/camera feed.svg
        "  />
         </div>
 <div className="flex flex-row w-full justify-between">
@@ -15,7 +15,7 @@ const PeepholeCam = ({ deviceName, subtitle,}) => {
           <p className="font-secondary text-secondary-text">{subtitle}</p>
         </div>
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
       </div>

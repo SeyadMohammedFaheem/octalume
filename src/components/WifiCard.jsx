@@ -16,7 +16,7 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
       <div className="flex flex-row justify-between">
       <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/download icon.svg
+          <img src="/octalume/src/assets/download icon.svg
           " alt="Up Arrow" />
         </div>
         <div className="flex flex-col gap-2">
@@ -26,7 +26,7 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
 </div>
 <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/upload icon.svg
+          <img src="/octalume/src/assets/upload icon.svg
           " alt="Up Arrow" />
         </div>
         <div className="flex flex-col gap-2">
@@ -35,7 +35,7 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
       </div>
 </div>
 <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
 </div>
       

@@ -9,13 +9,13 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
           <p className="font-secondary text-secondary-text">{devicedesc}</p>
         </div>
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
       <div className="flex flex-row justify-between">
       <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/Humidity icon.svg" />
+          <img src="/octalume/src/assets/Humidity icon.svg" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Humidity</h2>
@@ -24,7 +24,7 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
 </div>
 <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/AQI icon.svg" />
+          <img src="/octalume/src/assets/AQI icon.svg" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">AQI Level</h2>
@@ -33,7 +33,7 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
 </div>
 <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/Allergen icon.svg"  />
+          <img src="/octalume/src/assets/Allergen icon.svg"  />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Allergen Risk</h2>

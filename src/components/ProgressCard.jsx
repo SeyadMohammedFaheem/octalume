@@ -11,7 +11,7 @@ const ProgressCard = ({ deviceName, subtitle, progress, timeLeft }) => {
           <p className="font-secondary text-secondary-text">{subtitle}</p>
         </div>
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
 

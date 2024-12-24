@@ -10,7 +10,7 @@ const SmartLightCard = ({ deviceName, devicedesc, energyConsumption, downloadSpe
           <p className="font-secondary text-secondary-text">{devicedesc}</p>
         </div>
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/src/assets/up arrow.svg" alt="Up Arrow" />
+          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
       <div className="flex items-center space-x-4 flex-grow w-full">

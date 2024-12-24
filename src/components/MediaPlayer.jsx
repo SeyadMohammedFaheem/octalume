@@ -5,7 +5,7 @@ const MediaPlayer = () => {
     <div className="relative bg-black text-white rounded-lg w-[400px]  overflow-hidden">
       {/* Media Background */}
       <div className="">
-      <img src="/src/assets/media.png" alt="Up Arrow" />
+      <img src="/octalume/src/assets/media.png" alt="Up Arrow" />
       </div>
 
       {/* Gradient Overlay */}
