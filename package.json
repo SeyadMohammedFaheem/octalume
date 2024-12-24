@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/SeyadMohammedFaheem/octalume/",
+  "homepage": "https://seyadmohammedfaheem.github.io/octalume/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
