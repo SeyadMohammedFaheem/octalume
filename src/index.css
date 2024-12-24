@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font Face for Lufga */
+@font-face {
+  font-family: 'Lufga';
+  src: url('./assets/fonts/Lufga.woff2') format('woff2'),
+       url('./assets/fonts/Lufga.woff') format('woff');
+  font-weight: 300,400,500,600,700;  /* Adjust if multiple weights are available */
+  font-style: normal;  /* Adjust if italic styles exist */
+}

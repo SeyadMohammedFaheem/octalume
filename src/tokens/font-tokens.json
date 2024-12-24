@@ -1,0 +1,51 @@
+{
+    "type": {
+      "primary": {
+        "h1": {
+          "family": "Lufga",
+          "sizePx": "44px",
+          "sizeRem": "2.75rem",
+          "weight": "500",
+          "style": "normal"
+        },
+        "h2": {
+            "family": "Lufga",
+          "sizePx": "20px",
+          "sizeRem": "1.25rem",
+          "weight": "400",
+          "style": "normal"
+        },
+        "h3": {
+          "family": "Lufga",
+          "sizePx": "18px",
+          "sizeRem": "1.125rem",
+          "weight": "500",
+          "style": "normal"
+        }
+      },
+      "secondary": {
+        "h1": {
+          "family": "Outfit",
+          "sizePx": "28px",
+          "sizeRem": "1.75rem",
+          "weight": "500",
+          "style": "normal"
+        },
+        "h2": {
+          "family": "Outfit",
+          "sizePx": "18px",
+          "sizeRem": "1.125rem",
+          "weight": "300",
+          "style": "normal"
+        },
+        "h3": {
+          "family": "Outfit",
+          "sizePx": "14px",
+          "sizeRem": "0.875rem",
+          "weight": "400",
+          "style": "normal"
+        }
+      }
+    }
+  }
+  
