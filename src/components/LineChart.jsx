@@ -53,7 +53,7 @@ const LineChart = () => {
         cornerRadius: 4,
       },
       legend: {
-        display: true, // Turn off default legend
+        display: false,
       },
     },
     scales: {
@@ -83,7 +83,7 @@ const LineChart = () => {
   };
 
   return (
-    <div className="w-full h-44 rounded-lg shadow-md flex justify-center items-center">
+    <div className="w-full h-44 rounded-lg  flex justify-center items-center">
       <Line data={data} options={options} />
     </div>
   );
