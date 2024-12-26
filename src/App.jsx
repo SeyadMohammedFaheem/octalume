@@ -14,6 +14,8 @@ import EnergySavingList from "./components/EnergySavingList";
 import TemperatureControlPanel from "./components/TemperatureControlPanel";
 import SmartDoorLock from "./components/SmartDoorLock";
 import Aqi from "./components/Aqi";
+import BottomNavbar from "./components/BottomNavbar"; // Adjust the path based on the file structure
+
 
 
 
@@ -122,7 +124,13 @@ const App = () => {
        
       </div>
 
+      <div className=" ">
+      {/* Main Content */}
       
+
+      {/* Bottom Navbar */}
+      <BottomNavbar />
+    </div>
 
       
     

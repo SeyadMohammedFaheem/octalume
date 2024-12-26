@@ -31,22 +31,22 @@ const EnergySavingList = () => {
   const devices = [
     {
       name: "Television",
-      icon: "/src/assets/tv.svg",
+      icon: "/octalume/src/assets/tv.svg",
       value: 234,
     },
     {
       name: "Refrigerator",
-      icon: "/src/assets/fridge.svg",
+      icon: "/octalume/src/assets/fridge.svg",
       value: 623,
     },
     {
       name: "Air Conditioner",
-      icon: "/src/assets/ac.svg",
+      icon: "/octalume/src/assets/ac.svg",
       value: 843,
     },
     {
       name: "Smart Light",
-      icon: "/src/assets/light.svg",
+      icon: "/octalume/src/assets/light.svg",
       value: 23,
     },
   ];
