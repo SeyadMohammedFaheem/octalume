@@ -10,7 +10,7 @@ const TemperatureControl = () => {
           <p className="text-sm text-gray-400">Auto mode</p>
         </div>
         <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+        <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
         </button>
       </div>
 
@@ -26,7 +26,7 @@ const TemperatureControl = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
           <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/fire icon.svg" alt="Up Arrow" />
+          <img src="octalume/src/assets/fire icon.svg" alt="Up Arrow" />
         </button>
             <span>Heating</span>
           </div>
