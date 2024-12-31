@@ -1,4 +1,5 @@
 import React from "react";
+import UpArrow from "./UpArrow";
 
 const TemperatureControl = () => {
   return (
@@ -9,8 +10,8 @@ const TemperatureControl = () => {
           <h1 className="text-xl font-semibold">Air Conditioner</h1>
           <p className="text-sm text-gray-400">Auto mode</p>
         </div>
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-        <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
 

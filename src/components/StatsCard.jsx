@@ -1,5 +1,7 @@
 import React from "react";
 import BarChart from "./BarChart"; // Adjust path if needed
+import UpArrow from "./UpArrow";
+
 
 const StatsCard = () => {
   const barChartData = [
@@ -51,9 +53,9 @@ const StatsCard = () => {
           <p className="text-secondary-text">Peephole Cam (Video Doorbell)</p>
         </div>
         <div>
-          <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-            <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
-          </button>
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
+        </button>
         </div>
       </div>
       </div>

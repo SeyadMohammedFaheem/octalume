@@ -1,4 +1,5 @@
 import React from 'react';
+import UpArrow from "./UpArrow";
 
 const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, uploadSpeed }) => {
   return (
@@ -34,8 +35,8 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
       <p className="text-secondary-text text-primary-h2">45%</p>
       </div>
 </div>
-<button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+<button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
 </div>
       

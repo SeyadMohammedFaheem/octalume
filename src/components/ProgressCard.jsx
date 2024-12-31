@@ -1,4 +1,5 @@
 import React from 'react';
+import UpArrow from "./UpArrow";
 
 const ProgressCard = ({ deviceName, subtitle, progress, timeLeft }) => {
   return (
@@ -10,8 +11,8 @@ const ProgressCard = ({ deviceName, subtitle, progress, timeLeft }) => {
           <h3 className="font-primary text-primary-h2">{deviceName}</h3>
           <p className="font-secondary text-secondary-text">{subtitle}</p>
         </div>
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
 

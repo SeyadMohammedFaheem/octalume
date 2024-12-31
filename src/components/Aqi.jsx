@@ -1,5 +1,5 @@
 import React from 'react';
-import UpArrowIcon from '../assets/up-arrow.svg';
+import UpArrow from "./UpArrow";
 
 const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
   return (
@@ -9,9 +9,9 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
           <h3 className="font-primary text-primary-h2">{deviceName}</h3>
           <p className="font-secondary text-secondary-text">{devicedesc}</p>
         </div>
-       <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-                 <img src={UpArrowIcon} alt="Up Arrow" />
-               </button>
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
+        </button>
       </div>
       <div className="flex flex-row justify-between">
       <div className="flex flex-row gap-2">

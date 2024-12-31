@@ -1,5 +1,6 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import UpArrowIcon from '../assets/up-arrow.svg';
 import {
   Chart as ChartJS,
   CategoryScale,

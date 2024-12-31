@@ -1,4 +1,5 @@
 import React from 'react';
+import UpArrow from "./UpArrow";
 
 const SmartLightCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, uploadSpeed }) => {
   return (
@@ -9,8 +10,8 @@ const SmartLightCard = ({ deviceName, devicedesc, energyConsumption, downloadSpe
           <h3 className="font-primary text-primary-h2">{deviceName}</h3>
           <p className="font-secondary text-secondary-text">{devicedesc}</p>
         </div>
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
       <div className="flex items-center space-x-4 flex-grow w-full">

@@ -1,4 +1,5 @@
 import React from "react";
+import UpArrow from "./UpArrow";
 
 // EnergySavingItem: Single List Row Component
 const EnergySavingItem = ({ icon, deviceName, energyValue }) => {
@@ -60,8 +61,8 @@ const EnergySavingList = () => {
           <p className="font-secondary text-secondary-text">April</p>
         </div>
         {/* Button */}
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
 

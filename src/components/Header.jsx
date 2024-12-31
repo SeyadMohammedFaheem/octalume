@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RoomTabButton from "./RoomTabButton";
+import UpArrowIcon from '../assets/up-arrow.svg';
 
 const Header = () => {
   const [activeTab, setActiveTab] = useState("Living Room");

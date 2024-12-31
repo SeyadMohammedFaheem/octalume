@@ -1,5 +1,6 @@
 import CameraFeedIcon from '../assets/camera feed.svg';
 import UpArrowIcon from '../assets/up-arrow.svg';
+import UpArrow from './UpArrow';
 
 const PeepholeCam = ({ deviceName, subtitle }) => {
   return (
@@ -12,8 +13,8 @@ const PeepholeCam = ({ deviceName, subtitle }) => {
           <h3 className="font-primary text-primary-h2">{deviceName}</h3>
           <p className="font-secondary text-secondary-text">{subtitle}</p>
         </div>
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src={UpArrowIcon} alt="Up Arrow" />
+        <button className="w-16 h-16 rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
     </div>

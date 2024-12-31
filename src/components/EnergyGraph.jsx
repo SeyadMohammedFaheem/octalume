@@ -1,5 +1,7 @@
 import React from "react";
 import LineChart from "./LineChart";
+import UpArrow from "./UpArrow";
+
 
 const EnergyGraph = () => {
   return (
@@ -11,9 +13,8 @@ const EnergyGraph = () => {
           </h2>
           <p className="text-secondary-text">Peephole Cam (Video Doorbell)</p>
         </div>
-        <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-        <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
-
+        <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
       </div>
       <div className="flex flex-col h-48">

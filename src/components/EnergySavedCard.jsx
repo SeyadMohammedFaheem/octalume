@@ -1,4 +1,5 @@
 import React from "react";
+import UpArrow from "./UpArrow";
 
 const EnergySavedCard = () => {
   return (
@@ -10,8 +11,8 @@ const EnergySavedCard = () => {
       <h2 className="font-primary text-primary-h2 text-primary-text-inverse gap-2">Energy Saved</h2>
       <p className="text-secondary-text">Connected Appliances</p>
       </div>
-      <button className="bg-primary-container-text w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/up-arrow.svg" alt="Up Arrow" />
+      <button className="rounded-full flex justify-center items-center">
+        <UpArrow/>
         </button>
         </div>
      

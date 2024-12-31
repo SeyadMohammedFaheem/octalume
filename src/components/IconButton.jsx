@@ -1,4 +1,5 @@
 import React from "react";
+import UpArrowIcon from '../assets/up-arrow.svg';
 
 const IconButton = ({ iconSrc, active, onClick }) => {
   return (
