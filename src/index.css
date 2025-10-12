@@ -10,3 +10,12 @@
   font-weight: 300,400,500,600,700;  /* Adjust if multiple weights are available */
   font-style: normal;  /* Adjust if italic styles exist */
 }
+
+/* Icon utilities */
+.icon {
+  filter: invert(1) brightness(1.2); /* white-ish on dark */
+}
+
+.icon--active {
+  filter: invert(0) brightness(1); /* black */
+}

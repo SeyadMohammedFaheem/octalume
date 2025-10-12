@@ -1,4 +1,8 @@
 import React from "react";
+import TvIcon from '../assets/tv.svg';
+import FridgeIcon from '../assets/fridge.svg';
+import AcIcon from '../assets/ac.svg';
+import LightIcon from '../assets/light.svg';
 import UpArrow from "./UpArrow";
 
 // EnergySavingItem: Single List Row Component
@@ -29,28 +33,28 @@ const EnergySavingItem = ({ icon, deviceName, energyValue }) => {
 
 // Main Component
 const EnergySavingList = () => {
-  const devices = [
-    {
-      name: "Television",
-      icon: "/octalume/src/assets/tv.svg",
-      value: 234,
-    },
-    {
-      name: "Refrigerator",
-      icon: "/octalume/src/assets/fridge.svg",
-      value: 623,
-    },
-    {
-      name: "Air Conditioner",
-      icon: "/octalume/src/assets/ac.svg",
-      value: 843,
-    },
-    {
-      name: "Smart Light",
-      icon: "/octalume/src/assets/light.svg",
-      value: 23,
-    },
-  ];
+    const devices = [
+      {
+        name: "Television",
+        icon: TvIcon,
+        value: 234,
+      },
+      {
+        name: "Refrigerator",
+        icon: FridgeIcon,
+        value: 623,
+      },
+      {
+        name: "Air Conditioner",
+        icon: AcIcon,
+        value: 843,
+      },
+      {
+        name: "Smart Light",
+        icon: LightIcon,
+        value: 23,
+      },
+    ];
 
   return (
     <div className="bg-[#111111] rounded-2xl p-5 w-full  gap-5">

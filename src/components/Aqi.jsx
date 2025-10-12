@@ -1,5 +1,8 @@
 import React from 'react';
 import UpArrow from "./UpArrow";
+import HumidityIcon from '../assets/Humidity Icon.svg';
+import AqiIcon from '../assets/AQI Icon.svg';
+import AllergenIcon from '../assets/Allergen Icon.svg';
 
 const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
   return (
@@ -16,7 +19,7 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
       <div className="flex flex-row justify-between">
       <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/Humidity icon.svg" />
+          <img src={HumidityIcon} alt="humidity" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Humidity</h2>
@@ -25,7 +28,7 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
 </div>
 <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/AQI icon.svg" />
+          <img src={AqiIcon} alt="aqi" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">AQI Level</h2>
@@ -34,7 +37,7 @@ const Aqi = ({ deviceName, devicedesc, humidity, AQILevel, AllergenRisk }) => {
 </div>
 <div className="flex flex-row gap-2">
 <div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/Allergen icon.svg"  />
+          <img src={AllergenIcon} alt="allergen" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Allergen Risk</h2>

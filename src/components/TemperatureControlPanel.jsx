@@ -1,5 +1,8 @@
 import React from "react";
 import UpArrow from "./UpArrow";
+import TempContainer from '../assets/Temperature Container.png';
+import FireIcon from '../assets/Fire Icon.svg';
+import SnowIcon from '../assets/Snow Icon.svg';
 
 
 const TemperatureControl = () => {
@@ -18,8 +21,7 @@ const TemperatureControl = () => {
 
       {/* Arc with Temperature */}
       <div className="relative py-5">
-       <img src="/octalume/src/assets/temperature container.png
-       "  />
+  <img src={TempContainer} alt="temperature" />
         </div>
 
       {/* Heating & Cooling Options */}
@@ -28,7 +30,7 @@ const TemperatureControl = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
           <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="octalume/src/assets/fire icon.svg" alt="Up Arrow" />
+          <img src={FireIcon} alt="fire" />
         </button>
             <span>Heating</span>
           </div>
@@ -42,7 +44,7 @@ const TemperatureControl = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
           <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/snow icon.svg" alt="Up Arrow" />
+          <img src={SnowIcon} alt="snow" />
         </button>
             <span>Cooling</span>
           </div>

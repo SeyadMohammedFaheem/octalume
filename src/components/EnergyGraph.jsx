@@ -6,7 +6,7 @@ import UpArrow from "./UpArrow";
 const EnergyGraph = () => {
   return (
     <div className="bg-primary-container-bg p-5 h-full rounded-3xl">
-      <div className="flex justify-between items-center text-sm text-gray-400 mb-4">
+      <div className="flex justify-between items-center text-gray-400 mb-4">
         <div className="flex flex-col gap-2">
           <h2 className="font-primary text-primary-h2 text-primary-text">
             Electricity Consumed
@@ -23,7 +23,7 @@ const EnergyGraph = () => {
       {/* LineChart Component */}
       <LineChart />
 </div>
-      <div className="flex flex-row justify-between text-sm text-gray-400 gap-2 mt-4">
+      <div className="flex flex-row justify-between  text-gray-400 gap-2 mt-4">
         <div className="flex flex-col gap-2">
           <h3 className="font-primary text-primary-h3 text-primary-text">
             Average Electricity Consumed
@@ -34,7 +34,7 @@ const EnergyGraph = () => {
           <h3 className="font-primary text-primary-h3 text-primary-text">
             Target Energy Consumption Goal
           </h3>
-          <div className="flex gap-2">
+          <div className="flex gap-2 justify-between align-baseline">
             <p className="text-primary-default font-secondary text-secondary-h1">18,000 kWh</p>
             <p className="text-secondary-text text-secondary-h3">Edit Goal</p>
           </div>

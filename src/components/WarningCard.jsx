@@ -1,4 +1,5 @@
 import React from "react";
+import warningicon from '../assets/danger.svg';
 
 const WarningCard = ({ message, type }) => {
   const color = type === "warning" ? "text-w" : "text-red-400";
@@ -10,7 +11,7 @@ const WarningCard = ({ message, type }) => {
       <p className="font-secondary text-secondary-text">{message}</p>
       </div>
       <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/danger.svg" alt="Up Arrow" />
+          <img src={warningicon} alt="Warning Icon" />
         </button>
         </div>
 

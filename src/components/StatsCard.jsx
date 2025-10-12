@@ -46,7 +46,7 @@ const StatsCard = () => {
 
       {/* Footer Section */}
       <div className="flex justify-between items-center ">
-        <div className="flex flex-col justify-between text-sm text-gray-400 gap-2">
+        <div className="flex flex-col justify-between  text-gray-400 gap-2">
           <h2 className="font-primary text-primary-h2 text-primary-text gap-2">
             Electricity Consumed By Rooms
           </h2>

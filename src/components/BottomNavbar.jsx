@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import IconButton from "./IconButton";
 
+// Import every icon from the assets folder
+import dashboardIcon from '../assets/Dashboard.svg';
+import appsIcon from '../assets/apps.svg';
+import inboxIcon from '../assets/Inbox.svg';
+import analyticsIcon from '../assets/analytics.svg';
+import settingsIcon from '../assets/settings.svg';
+
+
 const BottomNavbar = () => {
   // Track active index
   const [activeIndex, setActiveIndex] = useState(0);
@@ -10,35 +18,35 @@ const BottomNavbar = () => {
 
       {/* Nav Item 1 */}
       <IconButton
-        iconSrc="/octalume/src/assets/dashboard.svg"
+        iconSrc={dashboardIcon}
         active={activeIndex === 0}
         onClick={() => setActiveIndex(0)}
       />
 
       {/* Nav Item 2 */}
       <IconButton
-        iconSrc="/octalume/src/assets/apps.svg"
+        iconSrc={appsIcon}
         active={activeIndex === 1}
         onClick={() => setActiveIndex(1)}
       />
 
       {/* Nav Item 3 */}
       <IconButton
-        iconSrc="/octalume/src/assets/inbox.svg"
+        iconSrc={inboxIcon}
         active={activeIndex === 2}
         onClick={() => setActiveIndex(2)}
       />
 
       {/* Nav Item 4 */}
       <IconButton
-        iconSrc="/octalume/src/assets/analytics.svg"
+        iconSrc={analyticsIcon}
         active={activeIndex === 3}
         onClick={() => setActiveIndex(3)}
       />
 
       {/* Nav Item 5 */}
       <IconButton
-        iconSrc="/octalume/src/assets/settings.svg"
+        iconSrc={settingsIcon}
         active={activeIndex === 4}
         onClick={() => setActiveIndex(4)}
       />

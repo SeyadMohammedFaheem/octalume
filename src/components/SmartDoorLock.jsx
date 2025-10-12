@@ -1,13 +1,14 @@
 import React from "react";
 import UpArrow from "./UpArrow";
+import DoorbellBg from '../assets/doorbell.png';
+import LockIcon from '../assets/Lock Icon.svg';
 
 const SmartDoorLock = () => {
   return (
     <div className="h-full rounded-xl p-5 justify-between relative w-full">
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full">
-       <img src="/octalume/src/assets/doorbell.png
-       "  />
+       <img src={DoorbellBg} alt="doorbell" />
         </div>
       
 
@@ -31,7 +32,7 @@ const SmartDoorLock = () => {
           {/* Lock Icon */}
           
           <button className="bg-[#DFFF00] text-white w-16 h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/Lock Icon.svg" alt="Up Arrow" />
+          <img src={LockIcon} alt="lock" />
         </button>
           
           <div className="ml-4">
