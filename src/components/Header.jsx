@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import RoomTabButton from "./RoomTabButton";
 import UpArrowIcon from '../assets/up-arrow.svg';
+import Logo from '../assets/logo.png';
+import Profile from '../assets/avatar.svg';
+import alert from '../assets/alert.svg';
 
 const Header = () => {
   const [activeTab, setActiveTab] = useState("Living Room");
@@ -17,9 +20,7 @@ const Header = () => {
   return (
     <div className="flex  items-center justify-between  mb-10 rounded-xl">
       {/* Logo */}
-      <img
-        src="octalume/src/assets/logo.png"
-        alt="OctaLume Logo"
+      <img src={Logo} alt="logo" 
         className="h-10"
       />
       <div className="flex items-center space-x-4">
@@ -44,15 +45,10 @@ const Header = () => {
         <button
           className="bg-primary-container-text text-white px-4 py-4 rounded-full"
         >
-          <img
-        src="octalume/src/assets/alert.svg"
-      />
+            <img src={alert} alt="alert"  />
         </button>        
         <div className="bg-primary-container-text text-white w-12 h-12 rounded-full">
-
-        <img
-        src="octalume/src/assets/avatar.svg"
-      />
+          <img src={Profile} alt="Profile"  />
         </div>
       </div>
     </div>

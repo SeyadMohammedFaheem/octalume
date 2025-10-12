@@ -11,7 +11,9 @@ const EnergyGraph = () => {
           <h2 className="font-primary text-primary-h2 text-primary-text">
             Electricity Consumed
           </h2>
-          <p className="text-secondary-text">Peephole Cam (Video Doorbell)</p>
+          <div className="font-secondary text-secondary-text">
+            Peephole Cam (Video Doorbell)
+          </div>
         </div>
         <button className="rounded-full flex justify-center items-center">
         <UpArrow/>
@@ -26,14 +28,14 @@ const EnergyGraph = () => {
           <h3 className="font-primary text-primary-h3 text-primary-text">
             Average Electricity Consumed
           </h3>
-          <p className="text-primary-default text-secondary-h1">10,800 kWh</p>
+          <p className="text-primary-default font-secondary text-secondary-h1">10,800 kWh</p>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="font-primary text-primary-h3 text-primary-text">
             Target Energy Consumption Goal
           </h3>
           <div className="flex gap-2">
-            <p className="text-primary-default text-secondary-h1">18,000 kWh</p>
+            <p className="text-primary-default font-secondary text-secondary-h1">18,000 kWh</p>
             <p className="text-secondary-text text-secondary-h3">Edit Goal</p>
           </div>
         </div>

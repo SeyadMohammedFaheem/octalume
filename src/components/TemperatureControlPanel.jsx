@@ -1,14 +1,15 @@
 import React from "react";
 import UpArrow from "./UpArrow";
 
+
 const TemperatureControl = () => {
   return (
     <div className="bg-primary-container-bg p-5 h-full  justify-between rounded-3xl">
       {/* Header */}
       <div className="flex justify-between items-center ">
         <div>
-          <h1 className="text-xl font-semibold">Air Conditioner</h1>
-          <p className="text-sm text-gray-400">Auto mode</p>
+          <h1 className="font-primary text-primary-h2 text-primary-text gap-2">Air Conditioner</h1>
+          <p className="font-secondary text-secondary-text">Auto mode</p>
         </div>
         <button className="rounded-full flex justify-center items-center">
         <UpArrow/>

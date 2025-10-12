@@ -1,5 +1,8 @@
 import React from 'react';
 import UpArrow from "./UpArrow";
+import Download from '../assets/Download Icon.svg';
+import Upload from '../assets/Upload Icon.svg';
+
 
 const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, uploadSpeed }) => {
   return (
@@ -16,9 +19,8 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
       </div>
       <div className="flex flex-row justify-between">
       <div className="flex flex-row gap-2">
-<div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/download icon.svg
-          " alt="Up Arrow" />
+        <div className="text-white w-12 h-12 rounded-full">
+          <img src={Download} alt="Download" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Download</h2>
@@ -26,9 +28,8 @@ const WifiCard = ({ deviceName, devicedesc, energyConsumption, downloadSpeed, up
       </div>
 </div>
 <div className="flex flex-row gap-2">
-<div className="  h-16 rounded-full flex justify-center items-center">
-          <img src="/octalume/src/assets/upload icon.svg
-          " alt="Up Arrow" />
+ <div className="text-white w-12 h-12 rounded-full">
+          <img src={Upload} alt="Upload" />
         </div>
         <div className="flex flex-col gap-2">
       <h2 className=" text-secondary-h2 text-primary-text gap-2">Upload</h2>

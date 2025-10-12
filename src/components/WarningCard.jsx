@@ -5,8 +5,8 @@ const WarningCard = ({ message, type }) => {
   return (
     <div className={`flex flex-col bg-primary-container-bg p-5  gap-9 rounded-3xl ${color}`}>
             <div className="flex flex-row justify-between">
-            <div className="flex flex-col justify-between">
-      <h3 className="font-primary text-primary-h2 text-danger">Warning!!!</h3>
+            <div className="flex flex-col">
+      <h3 className="font-primary text-primary-h2  gap-2 text-danger">Warning!!!</h3>
       <p className="font-secondary text-secondary-text">{message}</p>
       </div>
       <button className="bg-primary-container-text text-white w-16 h-16 rounded-full flex justify-center items-center">

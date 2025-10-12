@@ -50,7 +50,7 @@ const StatsCard = () => {
           <h2 className="font-primary text-primary-h2 text-primary-text gap-2">
             Electricity Consumed By Rooms
           </h2>
-          <p className="text-secondary-text">Peephole Cam (Video Doorbell)</p>
+          <p className="font-secondary text-secondary-text">Peephole Cam (Video Doorbell)</p>
         </div>
         <div>
         <button className="rounded-full flex justify-center items-center">

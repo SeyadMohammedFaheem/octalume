@@ -4,7 +4,7 @@ import UpArrow from "./UpArrow";
 // EnergySavingItem: Single List Row Component
 const EnergySavingItem = ({ icon, deviceName, energyValue }) => {
   return (
-    <div className=" font-primary text-primary-h3 flex items-center justify-between w-full py-4">
+    <div className=" font-primary  flex items-center justify-between w-full py-4">
       {/* Icon & Device Info */}
       <div className="flex items-center gap-3">
         {/* Icon */}
