@@ -1,4 +1,5 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import Header from "./components/Header";
 import EnergyGraph from "./components/EnergyGraph";
 import DeviceCard from "./components/DeviceCard";
@@ -134,6 +135,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <SpeedInsights />
     </div>
   );
 };
