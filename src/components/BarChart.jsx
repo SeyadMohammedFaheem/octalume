@@ -20,11 +20,14 @@ const BarChart = () => {
         data: [100, 150, 200],
         backgroundColor: (context) => {
           const chart = context.chart;
-          const { ctx } = chart;
-          const gradient = ctx.createLinearGradient(0, 0, 0, chart.chartArea.height);
+          const { ctx, chartArea } = chart;
+          if (!chartArea) {
+            return "rgba(0, 255, 0, 0.9)";
+          }
+          const gradient = ctx.createLinearGradient(0, 0, 0, chartArea.height);
           gradient.addColorStop(0, "rgba(0, 255, 0, 0.9)"); // Green gradient
           gradient.addColorStop(1, "rgba(255, 255, 0, 0.9)"); // Yellow gradient
-          return [gradient, gradient, gradient];
+          return gradient;
         },
         borderRadius: 20,
         barPercentage: 0.8, // Increased width of the bar
